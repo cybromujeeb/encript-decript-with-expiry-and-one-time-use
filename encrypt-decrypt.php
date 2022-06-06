@@ -1,4 +1,6 @@
-function cb_encode($data = '', $key = '', $expiry = 0) /// $expiry must be in minutes
+<?php    
+
+    function cb_encode($data = '', $key = '', $expiry = 0) /// $expiry must be in minutes
     {
         if(!$data)
         {
